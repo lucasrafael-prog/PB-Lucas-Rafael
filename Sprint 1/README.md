@@ -14,63 +14,63 @@ Durante a **Sprint 1** eu pude aprender conceitos sobre a metodologia Scrum para
 
         * [Exercício 1](./Exercicios/ExerciciosI_Biblioteca/ex1.sql)
 
-    1. Resposta do Exercício 2:
+    2. Resposta do Exercício 2:
         
         * [Exercício 2](./Exercicios/ExerciciosI_Biblioteca/ex2.sql)
     
-    1. Resposta do Exercício 3:
+    3. Resposta do Exercício 3:
 
         * [Exercício 3](./Exercicios/ExerciciosI_Biblioteca/ex3.sql)
 
-    1. Resposta do Exercício 4:
+    4. Resposta do Exercício 4:
 
         * [Exercício 4](./Exercicios/ExerciciosI_Biblioteca/ex4.sql)
 
-    1. Resposta do Exercício 5:
+    5. Resposta do Exercício 5:
 
         * [Exercício 5](./Exercicios/ExerciciosI_Biblioteca/ex5.sql)
 
-    1. Resposta do Exercício 6:
+    6. Resposta do Exercício 6:
 
         * [Exercício 6](./Exercicios/ExerciciosI_Biblioteca/ex6.sql)
 
-    1. Resposta do Exercício 7:
+    7. Resposta do Exercício 7:
 
         * [Exercício 7](./Exercicios/ExerciciosI_Biblioteca/ex7.sql)
 
-    1. Resposta do Exercício 8:
+    8. Resposta do Exercício 8:
 
         * [Exercício 8](./Exercicios/ExerciciosI_Loja/ex8.sql)
 
-    1. Resposta do Exercício 9:
+    9. Resposta do Exercício 9:
 
         * [Exercício 9](./Exercicios/ExerciciosI_Loja/ex9.sql)
 
-    1. Resposta do Exercício 10:
+    10. Resposta do Exercício 10:
 
         * [Exercício 10](./Exercicios/ExerciciosI_Loja/ex10.sql)
 
-    1. Resposta do Exercício 11:
+    11. Resposta do Exercício 11:
 
         * [Exercício 11](./Exercicios/ExerciciosI_Loja/ex11.sql)
 
-    1. Resposta do Exercício 12:
+    12. Resposta do Exercício 12:
 
         * [Exercício 12](./Exercicios/ExerciciosI_Loja/ex12.sql)
 
-    1. Resposta do Exercício 13:
+    13. Resposta do Exercício 13:
 
         * [Exercício 13](./Exercicios/ExerciciosI_Loja/ex13.sql)
 
-    1. Resposta do Exercício 14:
+    14. Resposta do Exercício 14:
 
         * [Exercício 14](./Exercicios/ExerciciosI_Loja/ex14.sql)
 
-    1. Resposta do Exercício 15:
+    15. Resposta do Exercício 15:
 
         * [Exercício 15](./Exercicios/ExerciciosI_Loja/ex15.sql)
 
-    1. Resposta do Exercício 16:
+    16. Resposta do Exercício 16:
 
         * [Exercício 16](./Exercicios/ExerciciosI_Loja/ex16.sql)
     
@@ -80,7 +80,7 @@ Durante a **Sprint 1** eu pude aprender conceitos sobre a metodologia Scrum para
         * [Exercício 1 - Arquivo CSV](./Exercicios/ExerciciosII_Exportação_de_Dados/Etapa1-ExercicioII.csv)
         * [Exercício 1 - Arquivo SQL](./Exercicios/ExerciciosII_Exportação_de_Dados/etapa1.sql)
     
-    1. Resposta do Exercício 2:
+    2. Resposta do Exercício 2:
 
         * [Exercício 2 - Arquivo CSV](./Exercicios/ExerciciosII_Exportação_de_Dados/Etapa2-ExercicioII.csv)
         * [Exercício 2 - Arquivo SQL](./Exercicios/ExerciciosII_Exportação_de_Dados/etapa2.sql)
