@@ -1,7 +1,7 @@
 # Olá! Me chamo Lucas!
 
 ## Sobre mim
-![FotoApresentacao](../PB%20-%20Compass/Imagens/FotoApresentacao.jpg)
+![FotoApresentacao](../PB-LucasRafael/Imagens/FotoApresentacao.jpg)
 ---
 
 * **Nome**: Lucas Rafael Ferreira Laurindo
@@ -23,10 +23,10 @@ A oportunidade de participar do programa de bolsas da Compass UOL chega no momen
 mais oportuno possível, pois estou numa fase fundamental em que procuro aplicar na prática as habilidades adquiridas até agora, é a ocasião perfeita! Almejo extrair o máximo de experiência e aprendizado do programa, dos participantes e das pessoas que me possibilitaram essa chance.
 ## Sprints
 
-* [Sprint 1](../PB%20-%20Compass/Sprint%201/)
-* [Sprint 2](../PB%20-%20Compass/Sprint%202/)
-* [Sprint 3](../PB%20-%20Compass/Sprint%203/)
-* [Sprint 4](../PB%20-%20Compass/Sprint%204/)
+* [Sprint 1](../PB-LucasRafael/Sprint%201/)
+* [Sprint 2](../PB-LucasRafael/Sprint%202/)
+* [Sprint 3](../PB-LucasRafael/Sprint%203/)
+* [Sprint 4](../PB-LucasRafael/Sprint%204/)
 * Sprint 5
 * Sprint 6
 * Sprint 7
