@@ -23,7 +23,7 @@ Abaixo consta o passo a passo de como foram aplicadas as formas normais, juntame
     
     * Para resolver essa situação, foi criada uma solução nos passos 12 ao 17.
 
-6. Posteriormente foram realizadas as criações de tabelas para efetuar a separação de entidades e aplicar a Segunda Forma Normal. Primeiramente foi realizado o  **CREATE TABLE** da *TbCliente*:
+6. Posteriormente foram realizadas as criações de tabelas para efetuar a separação de entidades.  Para isso, efetuei o  **CREATE TABLE** da *TbCliente*:
     * Obs: Utilizei o **DROP TABLE** como uma boa prática para deletar a tabela caso já exista no respectivo banco de dados.
 
     ![Normalização - Criação TbCliente](../Evidencias/Normalizacao_Criacao_TbCliente.png)
@@ -53,9 +53,9 @@ Abaixo consta o passo a passo de como foram aplicadas as formas normais, juntame
     
     ![Normalização - Erro Dados TbCarro](../Evidencias/Normalizacao_Erro_Repeticao.png)
 
-    * O erro mostrado na execução da consulta constata que a coluna *idCarro* por ser chave primária e possuir a *constraint UNIQUE* falhou, pois havia dados repetidos na tabela. Como a chave primária serve como identificador exclusivo para cada linha, não permite duplicadas.
+    * O erro mostrado na execução da consulta constata que a coluna *idCarro* por ser chave primária e possuir a *constraint UNIQUE* falhou, pois havia dados repetidos na tabela. Como a chave primária serve como identificador exclusivo para cada linha, não permite duplicatas.
 
-12. Para solucionar o erro causado pela coluna *kmCarro* e eliminar duplicatas, efetuei a separação criando uma tabela exclusiva para o registro das Kilometragens:
+12. Para solucionar o erro causado pela coluna *kmCarro* e eliminar duplicatas, efetuei a separação criando uma tabela exclusiva para o registro das quilometragens:
     * Utilizando o *idCarro* para poder juntas as tabelas numa eventual consulta:
 
     ![Normalização Criacão TbKmCarro](../Evidencias/Normalizacao_Criacao_TbKmCarro.png)
@@ -81,7 +81,7 @@ Abaixo consta o passo a passo de como foram aplicadas as formas normais, juntame
 
     ![Normalização Conferência Dados TbKmCarro](../Evidencias/Normalizacao_ConferenciaDados_TbKmCarro.png)
 
-17. Completada a solução do pequeno problema, preparei uma consulta com *JOIN* para apresentar os dados de Kilometragem em conjunto com os dados do Carro:
+17. Completada a solução do pequeno problema, preparei uma consulta com *JOIN* para apresentar os dados de quilometragem em conjunto com os dados do Carro:
 
     ![Normalização Conferência Dados TbCarro](../Evidencias/Normalizacao_ConferenciaDados_TbCarro_JOIN_TbKmCarro.png)
 
@@ -104,7 +104,7 @@ Abaixo consta o passo a passo de como foram aplicadas as formas normais, juntame
 22. Agora que foram separadas as entidades e eliminadas as dependências parciais, o próximo passo é eliminar as dependências transitivas. Para este processo criarei uma nova tabela com os dados de locação sem colunas desnecessárias:
 
     ![Normalização Criação TbLocacao](../Evidencias/Normalizacao_Criacao_TbLocacao.png)
-    * A tabela *TbLocacao* possui **FOREIGN KEY**s para referenciar as outras tabela da nova base de dados
+    * A tabela *TbLocacao* possui **FOREIGN KEY**s para referenciar as outras tabela da nova base de dados.
 
 23. Próximo de completar a normalização, insiro os dados na nova tabela de Locação: 
     
@@ -114,7 +114,7 @@ Abaixo consta o passo a passo de como foram aplicadas as formas normais, juntame
 
     ![Normalização Conferência Dados TbLocacao](../Evidencias/Normalizacao_ConferenciaDados_TbLocacao.png)
     
-    * Por fim, utilizo o **DROP TABLE** para deletar os dados da antiga *tb_locacao*
+    * Por fim, utilizo o **DROP TABLE** para deletar os dados da antiga *tb_locacao*.
 
 25. Finalizada a etapa, criei o modelo lógico do processo utilizando o [draw.io](https://app.diagrams.net/):
 
