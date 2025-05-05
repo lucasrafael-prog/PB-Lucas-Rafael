@@ -76,7 +76,7 @@ Abaixo consta o passo a passo de como foram aplicadas as etapas de atividades so
 
     ![Etapa 2 - Filtragem](../Evidencias/Filtragem_Top5AppsBaixados.png)
 
-    * É feita a filtragem dos 5 primeiros aplicativos com mais instalações utilizando o *sort_values* em ordem decrescente com o retono da tabela.
+    * É feita a filtragem dos 5 primeiros aplicativos com mais instalações utilizando o *sort_values* em ordem decrescente com o retorno da tabela.
 
     * Posso constatar que o app **Google Drive** aparece mais de uma vez, o  que pode interferir no resultado da criação do gráfico de forma equivocada:
 
@@ -96,7 +96,7 @@ Abaixo consta o passo a passo de como foram aplicadas as etapas de atividades so
 
     ![Etapa 3 - Contagem Categorias](../Evidencias/CategoriasApps_Conferencia.png)
 
-    * Inicio a etapa com a implementação da contagem por meio da função *value_counts* refeenciando a coluna **'Category'**.
+    * Inicio a etapa com a implementação da contagem por meio da função *value_counts* referenciando a coluna **'Category'**.
 
 17. Com os dados levantados, segue para o passo seguinte:
 
