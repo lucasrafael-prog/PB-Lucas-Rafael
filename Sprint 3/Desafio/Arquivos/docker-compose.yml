@@ -1,0 +1,17 @@
+services:
+  etl:
+    build: 
+      context: ./etl
+    volumes:
+      - ./volume:/app/volume
+    working_dir: /app
+    command: python etl.py
+
+  job:
+    build: ./job
+    volumes:
+      - ./volume:/app/volume
+    working_dir: /app
+    depends_on:
+      - etl
+    command: python job.py
