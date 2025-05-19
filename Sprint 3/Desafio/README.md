@@ -70,7 +70,7 @@ Abaixo consta o passo a passo de como foram aplicadas as etapas de atividades so
 
     ![Etapa 1 - Conversão Coluna Year](../Evidencias/Etapa1_Conversão_ColunaYears.png)
 
-15. Encerrando a parte de transformação dos dados, efetivo a conversão da coluna **Shows** de *string* para *int*, se certificando de que os dados estão sendo tratados de forma correta:
+15. Encerrando a parte de transformação dos dados, efetivo a conversão da coluna **Shows** de *string* para *int*, me certificando de que os dados estão sendo tratados de forma correta:
 
     ![Etapa 1 - Conversão Coluna Shows](../Evidencias/Etapa1_CoversaoColunaShows.png)
 
@@ -82,7 +82,7 @@ Abaixo consta o passo a passo de como foram aplicadas as etapas de atividades so
 
     ![Etapa 1 - Csv Limpo](../Evidencias/Etapa1_CsvLimpo.png)
 
-18. Finalizados os processos de ETL, crio o script *Python* para migrar o algoritmo desta maneira, encerrando a etapa 1 do desafio:
+18. Finalizados os processos de ETL, crio o script *Python* para migrar o algoritmo, desta maneira, encerrando a etapa 1 do desafio:
     
     * Primeira parte implantada:
 
@@ -98,7 +98,7 @@ Abaixo consta o passo a passo de como foram aplicadas as etapas de atividades so
 
     ![Etapa 2 - Importação Bibliotecas](../Evidencias/Etapa2_ImportacaoBibliotecas.png)
 
-21. Efetuo a leitura do dataset no arquivo *CSV* tratado na etapa anterior:
+21. Efetuo a leitura do dataset no arquivo *CSV* que foi tratado na etapa anterior:
 
     ![Etapa 2 - Leitura CSV](../Evidencias/Etapa2_LeituraCsv.png)
 
@@ -112,9 +112,9 @@ Abaixo consta o passo a passo de como foram aplicadas as etapas de atividades so
 
     ![Etapa 2 - Q1 Cálculos](../Evidencias/Etapa2_Q1_Calculos.png)
 
-    * Uso do *groupby* para agrupar o nome das artistas com os valores, *sort_values* para ordenar e *ascending=False* para a forma decrescente.
+    * Uso do *groupby* para agrupar o nome das artistas com seus valores, *mean* para a média, *sort_values* para ordenar e *ascending=False* para a forma decrescente.
 
-24. Com os dados separados, podemos introduzir o retorno das solução dessa questão: 
+24. Com os dados separados, podemos introduzir o retorno das soluções dessa questão: 
 
     ![Etapa 2 - Q1 Retorno](../Evidencias/Etapa2_Q1_Retorno.png)
     
@@ -162,7 +162,7 @@ Abaixo consta o passo a passo de como foram aplicadas as etapas de atividades so
 
     ![Etapa 2 - Q4 Dados Artista](../Evidencias/Etapa2_Q4_DadosArtista.png)
 
-34. Após a divisão, é gerada a separação dos valores de faturamento por ano de turnê com a soma:
+34. Após a divisão, é gerada a separação dos valores de faturamento por ano de turnê, com a soma:
 
     ![Etapa 2 - Q4 Soma Faturamento](../Evidencias/Etapa2_Q4_SomaFaturamento.png)
 
@@ -182,7 +182,7 @@ Abaixo consta o passo a passo de como foram aplicadas as etapas de atividades so
 
     ![Etapa 2 - Q5 Gráfico](../Evidencias/Etapa2_Q5_ImplantacaoGrafico.png)
 
-    * Com a finalidade de facilitar a visualização do gráfico, crio uma váriavel para as colunas do gráfico (*barras*), servindo para identificá-las na inserção dos números das colunas (*bar_label*).
+    * Com a finalidade de facilitar a visualização do gráfico, crio uma váriavel para as colunas do gráfico (*barras*), servindo para identificá-las na apresentação dos valores das colunas (*bar_label*).
     
     * Também é estabelecida uma rotação nos nomes das artistas do eixo X *(xticks)*.
 
@@ -232,13 +232,13 @@ Abaixo consta o passo a passo de como foram aplicadas as etapas de atividades so
 
     ![Etapa 3 - Rodando Container](../Evidencias/Etapa3_ExecucaoContainer.png)
 
-    * Obs: Aplicação de um volume para persistir a criação do *csv_limpo.csv* no diretório pós execução e encerramento do container.
+    * Obs: Aplicação de um volume para persistir a criação do *csv_limpo.csv* no diretório, pós execução e encerramento do container.
 
-43. Já na etapa 4, atendendo ao mesmo processo de criação do **Dockerfile** na pasta *job*, segue a estrutura do arquivo:
+43. Já na etapa 4, atendendo ao mesmo processo de criação do **Dockerfile**, desta vez na pasta *job*, segue a estrutura do arquivo:
 
     ![Etapa 4 - Arquivo Docker](../Evidencias/Etapa4_ArquivoDocker.png)
 
-    * Nesta ocasião, diferente da etapa anterior, os arquivos *job.py* e *csv_limpo.csv* são copiados da raiz de arquivos para que não ocorra problemas em encontrá-los na criação da imagem e execução do container.
+    * Nesta ocasião, diferente da etapa anterior, os arquivos *job.py* e *csv_limpo.csv* são copiados da raiz de arquivos para que não ocorra problemas em encontrá-los durante a criação da imagem e execução do container.
 
 44. Segue a criação da imagem com o nome de *desafio-job*:
 
@@ -248,7 +248,7 @@ Abaixo consta o passo a passo de como foram aplicadas as etapas de atividades so
 
     ![Etapa 4 - Rodando Container](../Evidencias/Etapa4_ExecucaoContainer.png)
 
-    * Para que a mudança no passo 43 faça sentido, executo o container a partir da pasta Arquivos, com a montagem de dois volumes: um de escrita e um de saída. Esses volumes possibilitam a leitura correta do *csv* na pasta raiz com a escrita da cópia para a atual e a saída das respostas do script de maneira correta.
+    * Para que a mudança no passo 43 faça sentido, executo o container a partir da pasta Arquivos, com a montagem de dois volumes: um de escrita e um de saída. Esses volumes possibilitam a leitura correta do *csv* na pasta raiz, em conjunto com a escrita da cópia para a atual e a saída das respostas do script de maneira correta.
 
 46. Segue a demonstração dos arquivo de solução criados com sucesso:
 
@@ -272,7 +272,7 @@ Abaixo consta o passo a passo de como foram aplicadas as etapas de atividades so
 
     ![Etapa 5 - Arquivo Compose](../Evidencias/Etapa5_ArquivoCompose.png)
 
-    * Explicação: O arquivo consiste em dois serviços, um para o *etl* e outro para o *job*. Com a implantação das builds com os contextos localizados em suas pastas específicas e os volumes com suas saídas na pasta própria *'/volume'*. Ambos serviços possuem um comando para serem inicializados, com o serviço *job* dependendo do *etl* para tal feito.
+    * Explicação: O arquivo consiste em dois serviços, um para o *etl* e outro para o *job*. Possui a implantação das builds com os contextos localizados em suas pastas específicas e os volumes com as saídas na pasta própria *'/volume'*. Ambos serviços possuem um comando para serem inicializados, com o serviço *job* dependendo do *etl* para tal feito.
 
 49. Em seguida, utilizo o seguinte comando para rodar o Compose:
 
