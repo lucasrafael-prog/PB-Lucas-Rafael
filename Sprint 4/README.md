@@ -7,6 +7,15 @@ Durante a **Sprint 4** pude aprofundar o aprendizado nos conceitos de computaç�
     * [Pasta Desafio](./Desafio/)
     * [README.md do Desafio](./Desafio/README.md)
 
+# Certificados
+* Nos links abaixo se encontram os certificados em PDF relacionados aos cursos realizados na plataforma da AWS Skill Builder e a *url* pública da *badge* do Cloud Quest. Nesta sprint, foram concluídos os cursos **AWS Partner: Cloud Economics** e **AWS Partner: Sales Accreditation** e a experiência do **Cloud Quest: Cloud Practitioner**.
+
+    * [AWS Partner: Cloud Economics](./Certificados/AWS_CloudEconomics.pdf)
+
+    * [AWS Partner: Sales Accreditation](./Certificados/AWS_SalesAccreditation.pdf)
+
+    * [Badge do Cloud Quest: Cloud Practitioner](https://www.credly.com/badges/f61ee9ea-7be8-4acb-9a12-17584b4b659c/public_url)
+
 # Exercícios
 *  Nos links a seguir, estão apresentadas as listas com as soluções dos exercícios realizados durante a sprint e logo em seguida estão suas respectivas evidências:
     ### Exercício Lab - AWS S3
