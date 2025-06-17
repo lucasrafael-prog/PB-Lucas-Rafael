@@ -1,0 +1,5 @@
+.env
+data
+movies.csv
+series.csv
+ingestaocsv.ipynb
