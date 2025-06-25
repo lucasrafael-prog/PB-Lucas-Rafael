@@ -132,7 +132,7 @@ Durante a **Sprint 6** pude aprofundar os aprendizados do programa em relação 
 
     ![Etapa 3 - Arquivo Gerado](./Exercicios/Evidencias_Geracao/Pt1-Etapa3_Resultado_Arquivo.png)
 
-        * OBS: o arquivo não foi enviado para o repositório por possuir o tamanho de 130 MBs excedendo o tamanho limite permitido. 
+    * OBS: o arquivo não foi enviado para o repositório por possuir o tamanho de 130 MBs excedendo o tamanho limite permitido. 
 
     ### Exercício Parte 2 - Apache Spark
 
