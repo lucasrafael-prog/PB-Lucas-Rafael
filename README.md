@@ -21,13 +21,15 @@ Desde então, minha trajetória tem sido buscar aprender e me aprofundar cada ve
 
 A oportunidade de participar do programa de bolsas da Compass UOL chega no momento
 mais oportuno possível, pois estou numa fase fundamental em que procuro aplicar na prática as habilidades adquiridas até agora, é a ocasião perfeita! Almejo extrair o máximo de experiência e aprendizado do programa, dos participantes e das pessoas que me possibilitaram essa chance.
+
+---
 ## Sprints
 
 * [Sprint 1](./Sprint%201/)
 * [Sprint 2](./Sprint%202/)
 * [Sprint 3](./Sprint%203/)
 * [Sprint 4](./Sprint%204/)
-* Sprint 5
-* Sprint 6
-* Sprint 7
-* Sprint 8
+* [Sprint 5](./Sprint%205/)
+* [Sprint 6](./Sprint%206/)
+* [Sprint 7](./Sprint%207/)
+* [Sprint 8](./Sprint%208/)
